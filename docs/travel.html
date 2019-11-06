@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="travel.css" />
+   
+</head>
+<body>
+    <h1>TravelAgency</h1>
+    <div>
+        <header>
+            <div class="table-destenations">
+                <table border="1">
+                    <thead>
+                       <tr>
+                           <th>code</th>
+                           <th>name</th>
+                           <th>price</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+             </div>
+             <div class="bookFlighForm">
+                 <label for="input-name">Name:</label>
+                 <input id="input-name"><br/>
+                 <label for="input-ID">ID:</label>
+                 <input id="input-ID"><br/>
+                 <label for="input-Destination">Destination:</label>
+                 <input id="input-Destination"><br/>
+                 <label for="input-Passengers">Passengers:</label>
+                 <input id="input-Passengers"><br/>
+                 <button class="bookButton" id="one" onclick="order()">Send</button>
+             </div>
+        </header>
+    </div>
+    <div class="table-orders">
+            <table border="1">
+                    <thead>
+                       <tr>
+                           <th>code</th>
+                           <th>name</th>
+                           <th>id</th>
+                           <th>destination</th>
+                           <th>Passengers</th>
+                           <th>total price</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+                <footer border"1">
+   </div>
+  <footer>
+     <div>
+        <label for="input-YourName">Your Name:</label>
+                <input id="input-YourName">
+                <button class="bookButton" id="two" onclick="searchname()">search</button>
+                <br/>
+                <table border="1" class="serchnameorder">
+                            <thead>
+                                 <tr>
+                                   <th>code</th>
+                                   <th>name</th>
+                                   <th>id</th>
+                                   <th>destination</th>
+                                   <th>Passengers</th>
+                                   <th>total price</th>
+                               </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+             </div>
+    <div>
+   <select class="selectnew">
+       <option class="selectorder()">Amrica</option>
+       <option  class="selectorder()">England</option>
+       <option  class="selectorder()">Germania</option>
+       <option  class="selectorder()">Australia</option>
+       <option  class="selectorder()">France</option>
+       <option  class="selectorder()">Spain</option>
+       
+   </select>
+    <br/>
+    <table border="1" class="tableselect">
+                <thead>
+                     <tr>
+                            <th>code</th>
+                            <th>name</th>
+                            <th>id</th>
+                            <th>destination</th>
+                            <th>Passengers</th>
+                            <th>total price</th>
+                   </tr>
+                </thead>
+            </table>
+</div></footer>
+<script src="travelFunction.js"></script>
+</body>
+</html>
